@@ -1,0 +1,37 @@
+.slider{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.perfil{
+    height: 200px;
+}
+
+.carousel-container{
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+}
+
+.container{
+    height: 400px;
+}
+
+.opinion{
+    font-family: "arial";
+    color: #fff;
+    font-size: 18px;
+}
+
+p .legend{
+    color: #fff;
+    font-size: 88px;
+    
+}
+
+#legen{
+    color: #fff;
+    font-size: 24px;
+    font-family: "Domine", serif;
+}

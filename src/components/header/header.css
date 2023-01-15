@@ -15,7 +15,7 @@ li {
   list-style: none;
 }
 
-.btn {
+div .btn{
   text-decoration: none;
   font-size: 20px;
   display: flex;
@@ -110,13 +110,13 @@ h2 {
   font-family: "Domine", serif;
   font-size: 30px;
 }
-
+/* 
 .Secundario:hover {
   text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34,
     5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716,
     2px -15px 20px #451b0e;
   color: #666;
-}
+} */
 
 p {
   justify-content: center;
@@ -138,10 +138,11 @@ p {
   /* background:linear-gradient(#1d130d 20%, #1b0f09fd 25%, #22120a 50%); */
   background-image: linear-gradient(
     to bottom,
-    #120a06,
-    #271b0f,
+    #2b180f,
+    #312111,
     #372b12,
     #413f15,
     #43551e
   );
+  height: 8000px;
 }
