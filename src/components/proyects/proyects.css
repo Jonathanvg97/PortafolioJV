@@ -55,7 +55,7 @@
   text-shadow: 1px 1px 2px #427388;
 }
 
-@media only screen and (max-width: 1024px) and (max-width: 1319px) {
+@media only screen and (min-width: 1024px) and (max-width: 1319px) {
   .co {
     display: flex;
     flex-wrap: wrap;
