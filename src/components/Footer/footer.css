@@ -57,6 +57,7 @@
 
 .li:hover {
     color: rgb(164, 174, 177);
+    transform: scale(1.2);
   }
 
 div a {

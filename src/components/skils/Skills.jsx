@@ -14,16 +14,14 @@ function Skills() {
     <div className="Hab">
       <h1 className="Acerca" style={{marginTop:'40px'}}>Skills</h1>
       <ul className="skills">
-       <li><img className="skill" src={js} alt="logo js" /></li>
-       <li><img className="skill" src={css} alt="logo css" /></li>
-       <li><img className="skill" src={html} alt="logo html" /></li>
-       <li><img className="skill" src={python} alt="logo python" /></li>
-       </ul>
-       <ul className="skills">
-       <li><img className="skill" src={react} alt="logo react" /></li>
-       <li><img className="skill" src={boostrap} alt="logo boostrap" /></li>
-       <li><img className="skill" src={trello} alt="logo trello" /></li>
-       <li><img className="skill" src={figma} alt="logo figma" /></li>
+       <li><img className="skill1" src={js} alt="logo js" /></li>
+       <li><img className="skill2" src={css} alt="logo css" /></li>
+       <li><img className="skill3" src={html} alt="logo html" /></li>
+       <li><img className="skill4" src={python} alt="logo python" /></li>
+       <li><img className="skill5" src={react} alt="logo react" /></li>
+       <li><img className="skill6" src={boostrap} alt="logo boostrap" /></li>
+       <li><img className="skill7" src={trello} alt="logo trello" /></li>
+       <li><img className="skill8" src={figma} alt="logo figma" /></li>
        </ul>
     </div>
   );

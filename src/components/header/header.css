@@ -73,7 +73,7 @@ div .btn{
   z-index: 2;
   position: absolute;
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: 5px 10px;
   font-family: "Domine", serif;
   background-color: rgb(58, 55, 43);
   border: 0 solid;
@@ -86,6 +86,7 @@ div .btn{
   text-decoration: none;
   color: #fff;
 }
+
 
 .contact:hover {
   border: 1px solid;
@@ -144,5 +145,5 @@ p {
     #413f15,
     #43551e
   );
-  height: 8000px;
+  height: 5400px;
 }

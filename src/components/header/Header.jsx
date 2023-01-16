@@ -7,6 +7,7 @@ import Proyects from "../proyects/Proyects";
 import Slider from "../they/They";
 import Footer from "../Footer/Footer";
 import ReactWhatsapp from "react-whatsapp";
+import {Correo} from '../correo/Correo'
 
 function Header() {
   return (
@@ -56,6 +57,10 @@ function Header() {
         <br />
         <Proyects />
         <Slider />
+        <Correo/>
+        <br />
+        <br />
+        <br />
         <Footer/>
       </div>
     </div>
@@ -63,3 +68,5 @@ function Header() {
 }
 
 export default Header;
+
+

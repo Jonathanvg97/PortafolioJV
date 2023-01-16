@@ -9,8 +9,44 @@
     text-align: center;
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
 }
 
-.skills:hover{
-    transform: scale(1.1);
+.skill1:hover{
+    /* transform: scale(1.1); */
+    transform: rotate(360deg);
+    transition:0.7s;
+    
+}
+
+.skill2:hover{
+    transform: rotate(360deg);
+    transition:0.7s;
+}
+.skill3:hover{
+    transform: rotate(360deg);
+    transition:0.7s;
+}
+.skill4:hover{
+    transform: rotate(360deg);
+    transition:0.7s;
+}
+.skill5:hover{
+    transform: rotate(360deg);
+    transition:0.7s;
+}
+
+.skill6:hover{
+    transform: rotate(360deg);
+    transition:0.7s;
+}
+
+.skill7:hover{
+    transform: rotate(360deg);
+    transition:0.7s;
+}
+
+.skill8:hover{
+    transform: rotate(360deg);
+    transition:0.7s;
 }
