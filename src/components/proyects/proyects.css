@@ -1,20 +1,30 @@
+.co{
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto 20px;
+  height: 100px;
+}
+
+#containerCardd{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  height: 400px;
+}
+
 .card {
   top: 80px;
   width: 300px;
   height: 100px;
-  display: flex;
 }
 
-.f .card{
-  display: flex;
-
-}
 .card:hover {
   transform: scale(1);
 }
 
 .bodyCard {
-  background-color: rgb(187, 185, 185);
+  background-color: #53662e;
+
 }
 
 .proyect {

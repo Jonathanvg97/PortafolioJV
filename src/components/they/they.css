@@ -1,3 +1,6 @@
+.they{
+    margin-top: 900px;
+}
 .slider{
     justify-content: center;
     align-items: center;
@@ -6,6 +9,19 @@
 
 .perfil{
     height: 200px;
+}
+
+.control-arrow{
+    height: 10px;
+}
+
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid #fff;
+    margin-top: 140px;
+}
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #fff;
+    margin-top: 140px;
 }
 
 .carousel-container{

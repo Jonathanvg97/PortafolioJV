@@ -1,52 +1,52 @@
-.Hab{
-    text-align: center;
-    justify-content: center;
-    display: inline-block;
+.Hab {
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
 }
 
-.skills{
-    margin-top: 40px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+.skills {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
 }
 
-.skill1:hover{
-    /* transform: scale(1.1); */
-    transform: rotate(360deg);
-    transition:0.7s;
-    
+.skill1:hover {
+  /* transform: scale(1.1); */
+  transform: rotate(360deg);
+  transition: 0.7s;
 }
 
-.skill2:hover{
-    transform: rotate(360deg);
-    transition:0.7s;
+.skill2:hover {
+  transform: rotate(360deg);
+  transition: 0.7s;
 }
-.skill3:hover{
-    transform: rotate(360deg);
-    transition:0.7s;
+.skill3:hover {
+  transform: rotate(360deg);
+  transition: 0.7s;
 }
-.skill4:hover{
-    transform: rotate(360deg);
-    transition:0.7s;
+.skill4:hover {
+  transform: rotate(360deg);
+  transition: 0.7s;
 }
-.skill5:hover{
-    transform: rotate(360deg);
-    transition:0.7s;
-}
-
-.skill6:hover{
-    transform: rotate(360deg);
-    transition:0.7s;
+.skill5:hover {
+  transform: rotate(360deg);
+  transition: 0.7s;
 }
 
-.skill7:hover{
-    transform: rotate(360deg);
-    transition:0.7s;
+.skill6:hover {
+  transform: rotate(360deg);
+  transition: 0.7s;
 }
 
-.skill8:hover{
-    transform: rotate(360deg);
-    transition:0.7s;
+.skill7:hover {
+  transform: rotate(360deg);
+  transition: 0.7s;
+}
+
+.skill8:hover {
+  transform: rotate(360deg);
+  transition: 0.7s;
 }

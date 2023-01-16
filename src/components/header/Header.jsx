@@ -48,8 +48,6 @@ function Header() {
         <br />
         <br />
         <About />
-        <br />
-        <br />
         <Skills />
         <br />
         <br />

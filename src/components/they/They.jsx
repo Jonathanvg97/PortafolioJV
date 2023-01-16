@@ -47,6 +47,8 @@ export default function Slider() {
     setCurrentIndex(index);
   }
   return (
+    <div className="they">
+    <h1 className="Acerca">references</h1>
     <div className="slider">
       <Carousel
         showArrows={true}
@@ -58,6 +60,7 @@ export default function Slider() {
       >
         {renderSlides}
       </Carousel>
+    </div>
     </div>
   );
 }
