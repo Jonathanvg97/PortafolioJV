@@ -1,58 +1,55 @@
-.Acerca{
-    text-align:center;
-    font-size:60px;
-    color:rgb(223, 187, 153);
-    -webkit-text-stroke: 2px rgba(24, 5, 5, 0.466);
-    letter-spacing: -4px;
-    font-weight:700;
-    text-transform:uppercase;
-    animation:blur .75s ease-out infinite;
-    text-shadow:0px 0px 5px #fff,
-        0px 0px 7px #fff;
+.Acerca {
+  text-align: center;
+  font-size: 60px;
+  color: rgb(223, 187, 153);
+  -webkit-text-stroke: 2px rgba(24, 5, 5, 0.466);
+  letter-spacing: -4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur 0.75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
 }
 
-  @keyframes blur{
-    from{
-        text-shadow:0px 0px 10px #fff,
-        0px 0px 10px rgb(190, 152, 81), 
-        0px 0px 25px rgb(190, 152, 81),
-        0px 0px 25px rgb(190, 152, 81),
-        0px 0px 25px rgb(190, 152, 81),
-        0px 0px 25px rgb(190, 152, 81),
-        0px 0px 25px rgb(190, 152, 81),
-        0px 0px 25px rgb(190, 152, 81),
-        0px 0px 50px rgb(190, 152, 81),
-        0px 0px 50px rgb(190, 152, 81),
-        0px 0px 50px #994e1c,
-        0px 0px 150px #994e1c,
-        0px 10px 100px #994e1c,
-        0px 10px 100px #994e1c,
-        0px 10px 100px #994e1c,
-        0px 10px 100px #994e1c,
-        0px -10px 100px #994e1c,
-        0px -10px 100px #994e1c;}
+@keyframes blur {
+  from {
+    text-shadow: 0px 0px 10px #fff, 0px 0px 10px rgb(190, 152, 81),
+      0px 0px 25px rgb(190, 152, 81), 0px 0px 25px rgb(190, 152, 81),
+      0px 0px 25px rgb(190, 152, 81), 0px 0px 25px rgb(190, 152, 81),
+      0px 0px 25px rgb(190, 152, 81), 0px 0px 25px rgb(190, 152, 81),
+      0px 0px 50px rgb(190, 152, 81), 0px 0px 50px rgb(190, 152, 81),
+      0px 0px 50px #994e1c, 0px 0px 150px #994e1c, 0px 10px 100px #994e1c,
+      0px 10px 100px #994e1c, 0px 10px 100px #994e1c, 0px 10px 100px #994e1c,
+      0px -10px 100px #994e1c, 0px -10px 100px #994e1c;
   }
-  
-  
-  
+}
 
-div .about{
+div .about {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 0 240px;
+}
+
+.foto {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.descripcion {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Domine", serif;
+}
+
+@media only screen and (max-width: 1024px) and (max-width: 1319px) {
+  .Acerca {
     text-align: center;
-    justify-content: center;
-    display: flex;
-    padding:0 240px
+    font-size: 50px;
+  }
+
+  div .about {
+    padding: 0 180px;
+  }
+
 }
-
-.foto{
-    width: 200px;
-    margin-top: 10px; 
-}
-
-.descripcion{
-    margin-top: 40px;
-    font-size: 20px;
-    color: #fff;
-    font-family: "Domine", serif;
-}
-
-

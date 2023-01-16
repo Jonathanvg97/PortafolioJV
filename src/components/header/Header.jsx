@@ -46,10 +46,10 @@ function Header() {
         Looking for who can make the <br /> idea come true What <br /> do you
         have in mind?
       </h2>
-      <p className="respuesta">
+      {/* <p className="respuesta">
         You are in the right place, <br /> I design incredible web pages, for
         amazing projects
-      </p>
+      </p> */}
       <div className="Fondo">
         <br />
         <br />
