@@ -53,9 +53,11 @@
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388;
+
+  /* and (max-width: 1319px) */
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1319px) {
+@media only screen and (min-width: 1024px)  {
   .co {
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +75,7 @@
 
   .card {
     top: 80px;
-    width: 220px;
+    width: 280px;
     height: 100px;
   }
 }
