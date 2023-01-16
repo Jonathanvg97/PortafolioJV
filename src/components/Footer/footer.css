@@ -77,9 +77,14 @@ div a {
   margin-top: -50px;
 }
 
-
 .botonWha{
     background:none;
     height: 8px;
     border: none;
+}
+
+.frase{
+  color: #fff;
+  font-size: 16px;
+  font-family: "Domine", serif;
 }

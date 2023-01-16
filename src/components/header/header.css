@@ -25,6 +25,14 @@ div .btn{
   position: absolute;
 }
 
+.log{
+  height: 140px;
+}
+
+.log:hover{
+  transform: scale(1.6);
+}
+
 .btnHeader {
   background-color: rgb(58, 55, 43);
   border: 0 solid;

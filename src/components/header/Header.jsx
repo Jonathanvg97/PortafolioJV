@@ -8,6 +8,7 @@ import Slider from "../they/They";
 import Footer from "../Footer/Footer";
 import ReactWhatsapp from "react-whatsapp";
 import {Correo} from '../correo/Correo'
+import log from './image/logo.png'
 
 function Header() {
   return (
@@ -23,7 +24,12 @@ function Header() {
         <li>
           <button className="btnHeader">Contact</button>
         </li>
+        <li>
+          <button className="btnHeader">Curriculum</button>
+        </li>
+        
       </ul>
+      <img className="log" src={log} alt="logo" />
       <h1 className="Principal">
         take the next <br /> step with me
       </h1>

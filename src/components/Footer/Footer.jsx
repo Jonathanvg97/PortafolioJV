@@ -35,6 +35,7 @@ function Footer() {
         <a href="" className="li"> Contact </a>
       </div>
       </div>
+      <span className="frase">"Ser libre es  gastar la mayor cantidad de tiempo de nuestra <br /> vida en aquello que nos gusta hacer"</span>
     </div>
   );
 }
