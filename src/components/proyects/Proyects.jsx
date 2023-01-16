@@ -34,24 +34,4 @@ const Proyects = () => {
 
 export default Proyects;
 
-// function Proyects() {
 
-//   return (
-
-//     <div>
-//     <h1> My Proyects</h1>
-//     <Card className='card'>
-//       <Card.Img className='proyect' src={Deezer} />
-//       <Card.Body className='bodyCard'>
-//         <Card.Title style={{fontFamily:"Domine"}}>Deezer</Card.Title>
-//         <Card.Text style={{fontFamily:"Arial"}}>
-//           Este proyecto se realizo en colaboración con otros estudiantes. Se realizo una replica de la pagina oficial de deezer
-//         </Card.Text>
-//         <button className='Ver'>View Proyect</button>
-//       </Card.Body>
-//     </Card>
-//     </div>
-//   );
-// }
-
-// export default Proyects;

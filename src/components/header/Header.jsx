@@ -16,7 +16,7 @@ function Header() {
       <img className="avatar" src={avatar} alt="" />
       <ul className="btn">
         <li>
-          <button className="btnHeader">About Me</button>
+         <a href=""> <button className="btnHeader">About Me</button></a>
         </li>
         <li>
           <button className="btnHeader">Proyects</button>
