@@ -55,20 +55,21 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  /* .co {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto 30px;
-    height: 100px;
+  .co {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 25px; 
+    grid-column-gap: 20px;
+  }
+  
+  #containerCardd {
+    display: grid;
     justify-content: center;
   }
-
-  #containerCardd {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-    height: 420px;
-  } */
+  
+  #f{
+    width:300px;
+  }
 
   .card {
     top: 80px;
