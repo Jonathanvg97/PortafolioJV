@@ -50,3 +50,15 @@
   transform: rotate(360deg);
   transition: 0.7s;
 }
+
+ /*Pantalla grane*/
+ @media only screen and (min-width: 1500px) {
+  .skills {
+    margin-top: 60px;
+    display: grid;
+    width: 1000px;
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+  }
+
+ }

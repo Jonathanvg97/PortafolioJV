@@ -51,5 +51,20 @@ div .about {
   div .about {
     padding: 0 180px;
   }
+}
 
+@media only screen and (min-width: 1500px) {
+  .descripcion {
+    margin-top: 40px;
+    font-size: 30px;
+    color: #fff;
+    font-family: "Domine", serif;
+  }
+
+  div .about {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 0 280px;
+  }
 }

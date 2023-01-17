@@ -88,3 +88,13 @@ div a {
   font-size: 16px;
   font-family: "Domine", serif;
 }
+
+@media only screen and (min-width: 1500px) {
+
+  .frase{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Domine", serif;
+  }
+
+}
