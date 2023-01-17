@@ -5,7 +5,7 @@ import { data } from "./data.js";
 const Proyects = () => {
   return (
     <>
-      <h1 className="Acerca"> My Proyects </h1>
+      <h1 className="Acerca" id="pro"> My Proyects </h1>
       <div className="co">
         {data.map((proyect) => {
           return (

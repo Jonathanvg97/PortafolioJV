@@ -62,3 +62,50 @@
   }
 
  }
+
+/*celular*/
+ @media only screen and (max-width: 480px) {
+
+  .Hab {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills {
+    margin-right:30px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+
+  }
+
+  .skill1{
+    width: 80px;
+  }
+  .skill2{
+    width: 80px;
+  }
+  .skill3{
+    width: 80px;
+  }
+  .skill4{
+    width: 80px;
+  }
+  .skill5{
+    width: 80px;
+  }
+  .skill6{
+    width: 80px;
+  }
+  .skill7{
+    width: 80px;
+  }
+  .skill8{
+    width: 80px;
+  }
+
+ 
+ }

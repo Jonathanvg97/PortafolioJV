@@ -58,5 +58,59 @@ p .legend {
     align-items: center;
     width: 650px;
   }
+}
 
+/*celular*/
+@media only screen and (max-width: 480px) {
+  .they {
+    margin-top: 180px;
+  }
+  .slider {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .perfil {
+    height: 200px;
+  }
+
+  .control-arrow {
+    height: 10px;
+  }
+
+  .carousel .control-next.control-arrow:before {
+    border-left: 8px solid #fff;
+    margin-top: 140px;
+  }
+  .carousel .control-prev.control-arrow:before {
+    border-right: 8px solid #fff;
+    margin-top: 140px;
+  }
+
+  .carousel-container {
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+  }
+
+  .container {
+    height: 400px;
+  }
+
+  .opinion {
+    font-family: "arial";
+    color: #fff;
+    font-size: 16px;
+  }
+
+  p .legend {
+    color: #fff;
+  }
+
+  #legen {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Domine", serif;
+  }
 }

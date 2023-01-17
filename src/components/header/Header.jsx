@@ -9,26 +9,15 @@ import Footer from "../Footer/Footer";
 import ReactWhatsapp from "react-whatsapp";
 import {Correo} from '../correo/Correo'
 import log from './image/logo.png'
+import  Navbar from '../Menu/Navbar'
+
 
 function Header() {
   return (
     <div className="header">
       <img className="avatar" src={avatar} alt="" />
-      <ul className="btn">
-        <li>
-         <a href=""> <button className="btnHeader">About Me</button></a>
-        </li>
-        <li>
-          <button className="btnHeader">Proyects</button>
-        </li>
-        <li>
-          <button className="btnHeader">Contact</button>
-        </li>
-        <li>
-          <button className="btnHeader">Curriculum</button>
-        </li>
-        
-      </ul>
+      <Navbar />
+      
       <img className="log" src={log} alt="logo" />
       <h1 className="Principal">
         take the next <br /> step with me
@@ -55,8 +44,6 @@ function Header() {
         <br />
         <About />
         <Skills />
-        <br />
-        <br />
         <br />
         <br />
         <Proyects />

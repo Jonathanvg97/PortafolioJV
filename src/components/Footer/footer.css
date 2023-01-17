@@ -1,4 +1,4 @@
-.footer{
+.footer {
   background-color: rgb(18, 34, 9);
 }
 
@@ -20,33 +20,32 @@
 .footer-contact {
   margin-top: 20px;
   font-size: 80px;
-  justify-content:center;
+  justify-content: center;
   align-content: center;
   margin-left: -100px;
 }
-.ri-linkedin-box-line{
-    color: #000;
+.ri-linkedin-box-line {
+  color: #000;
 }
-.ri-linkedin-box-line:hover{
-    color: rgb(164, 174, 177);
-}
-
-.ri-whatsapp-line{
-    color: #000;
-    background: none;
-   
+.ri-linkedin-box-line:hover {
+  color: rgb(164, 174, 177);
 }
 
-.ri-whatsapp-line:hover{
-    color: rgb(164, 174, 177);
+.ri-whatsapp-line {
+  color: #000;
+  background: none;
 }
 
-.ri-github-fill{
-    color: #000;
+.ri-whatsapp-line:hover {
+  color: rgb(164, 174, 177);
 }
 
-.ri-github-fill:hover{
-    color: rgb(164, 174, 177);
+.ri-github-fill {
+  color: #000;
+}
+
+.ri-github-fill:hover {
+  color: rgb(164, 174, 177);
 }
 
 .links {
@@ -63,9 +62,9 @@
 }
 
 .li:hover {
-    color: rgb(164, 174, 177);
-    transform: scale(1.2);
-  }
+  color: rgb(164, 174, 177);
+  transform: scale(1.2);
+}
 
 div a {
   text-decoration: none;
@@ -77,24 +76,141 @@ div a {
   margin-top: -50px;
 }
 
-.botonWha{
-    background:none;
-    height: 8px;
-    border: none;
+.botonWha {
+  background: none;
+  height: 8px;
+  border: none;
 }
 
-.frase{
+.frase {
   color: #fff;
   font-size: 16px;
   font-family: "Domine", serif;
 }
 
 @media only screen and (min-width: 1500px) {
-
-  .frase{
+  .frase {
     color: #fff;
     font-size: 20px;
     font-family: "Domine", serif;
   }
+}
 
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .frase {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Domine", serif;
+  }
+
+  .sloganFooter {
+    padding-top: 25px;
+    font-size: 22px;
+    font-family: "Domine", serif;
+    color: #fff;
+    text-shadow: black 0.4em 0.4em 0.2em;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 240px;
+    width: 180px;
+    margin-top: -80px;
+  }
+
+  .footer-contact {
+    margin-top: 20px;
+    font-size: 60px;
+    justify-content: center;
+    align-content: center;
+    margin-left: -100px;
+  }
+}
+
+/*celular*/
+@media only screen and (max-width: 480px) {
+  .footer {
+    background-color: rgb(18, 34, 9);
+  }
+
+  .sloganFooter {
+    padding-top: 25px;
+    font-size: 18px;
+  }
+
+  .containerF {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-contact {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+    
+  }
+  .ri-linkedin-box-line {
+    color: #000;
+  }
+  .ri-linkedin-box-line:hover {
+    color: rgb(164, 174, 177);
+  }
+
+  .ri-whatsapp-line {
+    color: #000;
+    background: none;
+  }
+
+  .ri-whatsapp-line:hover {
+    color: rgb(164, 174, 177);
+  }
+
+  .ri-github-fill {
+    color: #000;
+  }
+
+  .ri-github-fill:hover {
+    color: rgb(164, 174, 177);
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 120px;
+  }
+
+  .li {
+    color: #fff;
+    font-family: "Domine", serif;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .logo {
+    height: 200px;
+    width: 180px;
+    margin-top: -50px;
+  }
+
+  .botonWha {
+    background: none;
+    height: 8px;
+    border: none;
+  }
+
+  .frase {
+    font-size: 12px;
+  }
 }
