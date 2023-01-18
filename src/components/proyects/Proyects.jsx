@@ -1,29 +1,30 @@
-import Card from "react-bootstrap/Card";
 import "./proyects.css";
 import { data } from "./data.js";
 
 const Proyects = () => {
   return (
     <>
-      <h1 className="Acerca" id="pro"> My Proyects </h1>
+      <h1 className="Acerca" id="pro">
+        {" "}
+        My Proyects{" "}
+      </h1>
       <div className="co">
         {data.map((proyect) => {
           return (
-            <div className="containerCard" id="containerCardd">
-              <Card className="card" key={proyect.id} id="f">
-                <Card.Img className="proyect" src={proyect.ruta} />
-                <Card.Body className="bodyCard">
-                  <Card.Title style={{ fontFamily: "Domine",color:"#ffffff" }}>
-                    {proyect.title}
-                  </Card.Title>
-                  <Card.Text style={{ fontFamily: "Arial", color:"#ffffff" }}>
-                    {proyect.description}
-                  </Card.Text>
+            <div className="flip-card">
+              <div className="flip-card-inner">
+                <div className="flip-card-front">
+                  <p className="title"> {proyect.title}</p>
+                  <img className="imgProjects" src={proyect.ruta} alt="" />
+                </div>
+                <div className="flip-card-back">
+                  <p className="title">{proyect.title}</p>
+                  <p> {proyect.description}</p>
                   <a href={proyect.url} target="blank">
                     <button className="Ver">View Proyect</button>{" "}
                   </a>
-                </Card.Body>
-              </Card>
+                </div>
+              </div>
             </div>
           );
         })}
@@ -33,5 +34,3 @@ const Proyects = () => {
 };
 
 export default Proyects;
-
-

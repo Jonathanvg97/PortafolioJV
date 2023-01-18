@@ -51,6 +51,33 @@
   transition: 0.7s;
 }
 
+@media only screen and (min-width: 1024px) {
+  
+  .skill1{
+    width: 120px;
+  }
+  .skill2{
+    width: 120px;
+  }
+  .skill3{
+    width: 120px;
+  }
+  .skill4{
+    width: 120px;
+  }
+  .skill5{
+    width: 120px;
+  }
+  .skill6{
+    width: 120px;
+  }
+  .skill7{
+    width: 120px;
+  }
+  .skill8{
+    width: 120px;
+  }
+}
  /*Pantalla grane*/
  @media only screen and (min-width: 1500px) {
   .skills {
@@ -61,8 +88,61 @@
     grid-row-gap: 60px;
   }
 
+  .skill1{
+    width: 200px;
+  }
+  .skill2{
+    width:200px;
+  }
+  .skill3{
+    width:200px;
+  }
+  .skill4{
+    width:200px;
+  }
+  .skill5{
+    width:200px;
+  }
+  .skill6{
+    width:200px;
+  }
+  .skill7{
+    width:200px;
+  }
+  .skill8{
+    width:200px;
+  }
+
+
  }
 
+ @media only screen and (min-width: 500px) and (max-width: 800px) {
+  .skill1{
+    width: 120px;
+  }
+  .skill2{
+    width:120px;
+  }
+  .skill3{
+    width:120px;
+  }
+  .skill4{
+    width:120px;
+  }
+  .skill5{
+    width:120px;
+  }
+  .skill6{
+    width:120px;
+  }
+  .skill7{
+    width:120px;
+  }
+  .skill8{
+    width:120px;
+  }
+ }
+ 
 /*celular*/
  @media only screen and (max-width: 480px) {
 
@@ -109,3 +189,5 @@
 
  
  }
+
+ 

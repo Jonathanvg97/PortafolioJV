@@ -9,18 +9,31 @@ import Footer from "../Footer/Footer";
 import ReactWhatsapp from "react-whatsapp";
 import {Correo} from '../correo/Correo'
 import log from './image/logo.png'
-import  Navbar from '../Menu/Navbar'
+
 
 
 function Header() {
   return (
     <div className="header">
       <img className="avatar" src={avatar} alt="" />
-      <Navbar />
+      <ul className="btn">
+      <li>
+        <button className="btnHeader">About Me</button>
+      </li>
+      <li>
+        <button className="btnHeader"> Proyects</button>
+      </li>
+      <li>
+        <button className="btnHeader">Contact</button>
+      </li>
+      <li>
+        <button className="btnHeader"> Download CV </button>
+      </li>
+    </ul>
       
       <img className="log" src={log} alt="logo" />
       <h1 className="Principal">
-        take the next <br /> step with me
+        Take the next <br /> step with me
       </h1>
    
         <ReactWhatsapp className="contact"

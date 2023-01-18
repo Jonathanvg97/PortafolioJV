@@ -156,6 +156,7 @@ div a {
     display: flex;
     justify-content: center;
     align-content: center;
+    font-size: 60px;
   
     
   }
@@ -202,6 +203,7 @@ div a {
     height: 200px;
     width: 180px;
     margin-top: -50px;
+    justify-content: center;
   }
 
   .botonWha {
@@ -211,6 +213,7 @@ div a {
   }
 
   .frase {
+    margin-top: -80px;
     font-size: 12px;
   }
 }
