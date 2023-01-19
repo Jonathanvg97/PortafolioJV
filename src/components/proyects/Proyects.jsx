@@ -5,8 +5,7 @@ const Proyects = () => {
   return (
     <>
       <h1 className="Acerca" id="pro">
-        {" "}
-        My Proyects{" "}
+        My Proyects
       </h1>
       <div className="co">
         {data.map((proyect) => {

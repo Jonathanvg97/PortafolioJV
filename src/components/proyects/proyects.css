@@ -48,8 +48,14 @@
 }
 
 .flip-card-front {
-  background: #ffd0ba;
-  color: #000;
+  background: linear-gradient(
+    120deg,
+    #8d553f 30%,
+    #ffffff 88%,
+    rgb(255, 255, 255) 40%,
+    #a78f8875 
+  );
+  color: #fff;
   font-size: 18px;
   font-weight: 400;
   font-family: "Domine", serif;
@@ -61,7 +67,7 @@
     #8d553f 30%,
     #ffffff 88%,
     rgb(255, 255, 255) 40%,
-    #6e3321f8 80%
+    #a78f8875 
   );
   color: #fff;
   transform: rotateY(180deg);

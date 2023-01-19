@@ -9,27 +9,16 @@ import Footer from "../Footer/Footer";
 import ReactWhatsapp from "react-whatsapp";
 import {Correo} from '../correo/Correo'
 import log from './image/logo.png'
+import {NavHeader} from '../Menu/Menu'
 
 
 
 function Header() {
   return (
+    <>
+    <NavHeader/>
     <div className="header">
       <img className="avatar" src={avatar} alt="" />
-      <ul className="btn">
-      <li>
-        <button className="btnHeader">About Me</button>
-      </li>
-      <li>
-        <button className="btnHeader"> Proyects</button>
-      </li>
-      <li>
-        <button className="btnHeader">Contact</button>
-      </li>
-      <li>
-        <button className="btnHeader"> Download CV </button>
-      </li>
-    </ul>
       
       <img className="log" src={log} alt="logo" />
       <h1 className="Principal">
@@ -42,7 +31,7 @@ function Header() {
         >
           Contact Me <i class="ri-whatsapp-line"></i>
         </ReactWhatsapp>
-     
+   
 
       <h2 className="Secundario">
         Looking for who can make the <br /> idea come true What <br /> do you
@@ -68,6 +57,8 @@ function Header() {
         <Footer/>
       </div>
     </div>
+    </>
+
   );
 }
 

@@ -1,27 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Coiny');
+
 .Acerca {
+  font-family: 'Coiny', cursive;
   text-align: center;
   font-size: 60px;
-  color: rgb(223, 187, 153);
+  color: rgb(255, 252, 250);
   -webkit-text-stroke: 2px rgba(24, 5, 5, 0.466);
-  letter-spacing: -4px;
+  letter-spacing: 8px;
   font-weight: 700;
-  text-transform: uppercase;
-  animation: blur 0.75s ease-out infinite;
+  
   text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
 }
 
-@keyframes blur {
-  from {
-    text-shadow: 0px 0px 10px #fff, 0px 0px 10px rgb(190, 152, 81),
-      0px 0px 25px rgb(190, 152, 81), 0px 0px 25px rgb(190, 152, 81),
-      0px 0px 25px rgb(190, 152, 81), 0px 0px 25px rgb(190, 152, 81),
-      0px 0px 25px rgb(190, 152, 81), 0px 0px 25px rgb(190, 152, 81),
-      0px 0px 50px rgb(190, 152, 81), 0px 0px 50px rgb(190, 152, 81),
-      0px 0px 50px #994e1c, 0px 0px 150px #994e1c, 0px 10px 100px #994e1c,
-      0px 10px 100px #994e1c, 0px 10px 100px #994e1c, 0px 10px 100px #994e1c,
-      0px -10px 100px #994e1c, 0px -10px 100px #994e1c;
-  }
-}
 
 div .about {
   text-align: center;
