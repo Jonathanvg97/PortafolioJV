@@ -41,7 +41,7 @@ export const Correo = () => {
 
   return (
     <>
-    <h1 className="Acerca">Contact</h1>
+    <h1 className="Acerca" id="Contact">Contactame</h1>
     <div className="containerEmail">
       <form ref={form} onSubmit={sendEmail}>
         <input

@@ -6,10 +6,10 @@ import "./about.css";
 function About() {
     return (
     <div>
-      <h1 className="Acerca">About Me</h1>
+      <h1 className="Acerca" id="About">Acerca de Mi</h1>
       <div className="about">
         <img className="foto" src={foto} alt="Foto perfil" />
-        <p className="descripcion">Hello, my name is Jonathan Vanegas, welcome to my briefcase. I am a Full Stack programmer, I like the front-end, 1 year ago I started this path of technology and programming and it is something that I still like a lot, I am passionate about design, I am creative and I like to solve problems. This is why I like to continue learning more every day next to technology.</p>
+        <p className="descripcion">Hola, mi nombre es Jonathan Vanegas, bienvenido a mi portafolio. Soy programador Full Stack, me gusta el front-end, hace 1 año inicié este camino de la tecnología y la programación y es algo que me sigue gustando mucho, me apasiona el diseño, soy creativo y me gusta resolver problemas. Por eso me gusta seguir aprendiendo cada día más al lado de la tecnología.</p>
       </div>
       </div>
     );

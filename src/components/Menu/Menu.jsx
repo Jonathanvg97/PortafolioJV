@@ -24,19 +24,19 @@ export function NavHeader() {
           <Collapse className="collapses" isOpen={!collapsed} navbar>
             <Nav className="navCollapse" navbar>
               <NavItem className="navItemGlobal">
-                <NavLink className="border">About</NavLink>
+             <a href="#About"><NavLink className="border">Acerca de Mi</NavLink></a> 
               </NavItem>
               <NavItem className="navItemGlobal">
-                <NavLink className="border">Skills</NavLink>
+               <a href="#Skills"> <NavLink className="border">Habilidades</NavLink></a>
               </NavItem>
               <NavItem className="navItemGlobal">
-                <NavLink className="border">Projects</NavLink>
+               <a href="#Proyect"> <NavLink className="border">Proyectos</NavLink></a>
               </NavItem>
               <NavItem className="navItemGlobal">
-                <NavLink className="border">Contact</NavLink>
+                <a href="#Contact"> <NavLink className="border">Contactame</NavLink></a>
               </NavItem>
               <NavItem className="navItemGlobal">
-                <NavLink className="border">Download CV</NavLink>
+                <NavLink className="border">Curriculum</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

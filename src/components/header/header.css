@@ -1,9 +1,9 @@
-
-
 .avatar {
   width: 100%;
   height: 100%;
   z-index: 0;
+  opacity: 0.9;
+
 }
 
 div .header {
@@ -55,7 +55,7 @@ div .btn {
 @media only screen and (min-width: 500px) and (max-width: 800px) {
   .btnHeader {
     padding: 0px 5px;
-  };
+  }
 }
 .btnHeader:hover {
   border: 1px solid;
@@ -64,7 +64,7 @@ div .btn {
   outline-color: rgba(255, 255, 255, 0);
   outline-offset: 15px;
   text-shadow: 1px 1px 2px #427388;
-};
+}
 
 .log {
   height: 140px;
@@ -135,13 +135,13 @@ h2 {
   font-family: "Domine", serif;
   font-size: 30px;
 }
-/* 
+
 .Secundario:hover {
   text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34,
     5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716,
     2px -15px 20px #451b0e;
   color: #666;
-} */
+}
 
 p {
   justify-content: center;
@@ -236,13 +236,13 @@ p {
 
   .Principal {
     top: 180px;
-    left: 38%;
-    right: 30%;
+    left: 12%;
+    right: 10%;
     z-index: 2;
     position: absolute;
     color: rgba(255, 255, 255, 0.466);
     font-family: "Domine", serif;
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .Principal:hover {
@@ -290,7 +290,7 @@ p {
     right: 24%;
     z-index: 2;
     position: absolute;
-    color:#fff;
+    color: #fff;
     font-family: "Domine", serif;
     font-size: 30px;
   }
@@ -335,7 +335,6 @@ p {
 /*pantalla pc pequeña*/
 
 @media only screen and (min-width: 1024px) and (max-width: 1319px) {
- 
   div .header {
     text-align: center;
     justify-content: center;
@@ -358,13 +357,13 @@ p {
   }
 
   .Principal {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .Secundario {
     font-size: 24px;
   }
- 
+
   .respuesta {
     top: 620px;
     left: 32%;
@@ -375,9 +374,8 @@ p {
     font-family: "Domine", serif;
     font-size: 20px;
   }
-
 }
- /*Pantalla grande*/
+/*Pantalla grande*/
 @media only screen and (min-width: 1500px) {
   div .header {
     text-align: center;
@@ -391,7 +389,7 @@ p {
   }
 
   .Principal {
-    font-size: 90px;
+    font-size: 50px;
     margin-top: 100px;
   }
 
@@ -399,7 +397,7 @@ p {
     font-size: 48px;
     margin-top: 240px;
   }
- 
+
   .respuesta {
     top: 620px;
     left: 32%;
@@ -435,26 +433,25 @@ p {
   }
 }
 
- /*Pantalla tablet*/
- @media only screen and (min-width: 500px) and (max-width: 800px) {
-
+/*Pantalla tablet*/
+@media only screen and (min-width: 500px) and (max-width: 800px) {
   .avatar {
     width: 100%;
     height: 100%;
     z-index: 0;
   }
-  
+
   div .header {
     text-align: center;
     justify-content: center;
   }
-  
+
   li {
     padding: 0 5px;
     text-decoration: none;
     list-style: none;
   }
-  
+
   div .btn {
     text-decoration: none;
     font-size: 15px;
@@ -464,15 +461,15 @@ p {
     z-index: 2;
     position: absolute;
   }
-  
+
   .log {
     height: 140px;
   }
-  
+
   .log:hover {
     transform: scale(1.6);
   }
-  
+
   .btnHeader {
     background-color: rgb(58, 55, 43);
     border: 0 solid;
@@ -488,7 +485,7 @@ p {
     padding: 0 20px;
     font-family: "Domine", serif;
   }
-  
+
   .btnHeader:hover {
     border: 1px solid;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
@@ -497,23 +494,23 @@ p {
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388;
   }
-  
+
   .Principal {
     top: 180px;
-    left: 24%;
-    right: 18%;
+    left: 20%;
+    right: 14%;
     z-index: 2;
     position: absolute;
     color: rgba(255, 255, 255, 0.466);
-    font-size: 40px;
+    font-size: 24px;
   }
-  
+
   .Principal:hover {
     transform: scale(1.3);
     transition: transform 0.2s;
     color: rgb(255, 255, 255);
   }
-  
+
   .contact {
     top: 310px;
     left: 43%;
@@ -533,7 +530,7 @@ p {
     text-decoration: none;
     color: #fff;
   }
-  
+
   .contact:hover {
     border: 1px solid;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
@@ -542,7 +539,7 @@ p {
     outline-offset: 15px;
     text-shadow: 1px 1px 2px #427388;
   }
-  
+
   h2 {
     justify-content: center;
     text-align: center;
@@ -564,12 +561,12 @@ p {
       2px -15px 20px #451b0e;
     color: #666;
   } */
-  
+
   p {
     justify-content: center;
     text-align: center;
   }
-  
+
   .respuesta {
     top: 620px;
     left: 32%;
@@ -580,7 +577,7 @@ p {
     font-family: "Domine", serif;
     font-size: 20px;
   }
-  
+
   .Fondo {
     /* background:linear-gradient(#1d130d 20%, #1b0f09fd 25%, #22120a 50%); */
     background-image: linear-gradient(
@@ -593,15 +590,21 @@ p {
     );
     height: 100%;
   }
- }
+}
 
- @media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
+  .avatar {
+    width: 100%;
+    height: 240px;
+    z-index: 0;
+  }
+
   li {
     padding: 0 15px;
     text-decoration: none;
     list-style: none;
   }
-  
+
   div .btn {
     text-decoration: none;
     font-size: 20px;
@@ -611,41 +614,40 @@ p {
     z-index: 2;
     position: absolute;
   }
-  
+
   .log {
     height: 100px;
   }
-  
+
   .Principal {
-    top: 18px;
+    top: 50px;
     left: 16%;
     right: 10%;
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Domine", serif;
   }
-  
+
   .Principal:hover {
     transform: scale(1.3);
     transition: transform 0.2s;
     color: rgb(255, 255, 255);
   }
-  
+
   .contact {
-    top: 65px;
+    top: 105px;
     left: 44%;
     z-index: 0;
     position: absolute;
     padding: 2px 5px;
     font-size: 6px;
   }
-  
-  
+
   h2 {
     justify-content: center;
     text-align: center;
   }
   .Secundario {
-    top: 100px;
+    top: 140px;
     font-size: 6px;
   }
   /* 
@@ -655,12 +657,12 @@ p {
       2px -15px 20px #451b0e;
     color: #666;
   } */
-  
+
   p {
     justify-content: center;
     text-align: center;
   }
-  
+
   .respuesta {
     top: 620px;
     left: 32%;
@@ -671,6 +673,4 @@ p {
     font-family: "Domine", serif;
     font-size: 12px;
   }
-  
-  
- }
+}

@@ -4,8 +4,8 @@ import { data } from "./data.js";
 const Proyects = () => {
   return (
     <>
-      <h1 className="Acerca" id="pro">
-        My Proyects
+      <h1 className="Acerca" id="Proyect">
+        Mis Proyectos
       </h1>
       <div className="co">
         {data.map((proyect) => {
@@ -20,7 +20,10 @@ const Proyects = () => {
                   <p className="title">{proyect.title}</p>
                   <p> {proyect.description}</p>
                   <a href={proyect.url} target="blank">
-                    <button className="Ver">View Proyect</button>{" "}
+                    <button className="Ver">Ver Proyectos</button>
+                  </a>
+                  <a href={proyect.url} target="blank">
+                    <button className="Ver">Ver Repositorio</button>
                   </a>
                 </div>
               </div>

@@ -22,7 +22,8 @@ function Header() {
       
       <img className="log" src={log} alt="logo" />
       <h1 className="Principal">
-        Take the next <br /> step with me
+      Buscando quién puede hacer realidad la <br /> idea que <br /> 
+        tienes en mente
       </h1>
    
         <ReactWhatsapp className="contact"
@@ -34,17 +35,13 @@ function Header() {
    
 
       <h2 className="Secundario">
-        Looking for who can make the <br /> idea come true What <br /> do you
-        have in mind?
+     Toma el siguiente paso conmigo
       </h2>
-      {/* <p className="respuesta">
-        You are in the right place, <br /> I design incredible web pages, for
-        amazing projects
-      </p> */}
+      
       <div className="Fondo">
         <br />
         <br />
-        <About />
+        <About /> 
         <Skills />
         <br />
         <br />

@@ -12,7 +12,7 @@ import figma from "./image/figma.png";
 function Skills() {
   return (
     <div className="Hab">
-      <h1 className="Acerca" style={{marginTop:'40px'}}>Skills</h1>
+      <h1 className="Acerca" id="Skills" style={{marginTop:'40px'}}>Habilidades</h1>
       <ul className="skills">
        <li><img className="skill1" src={js} alt="logo js" /></li>
        <li><img className="skill2" src={css} alt="logo css" /></li>

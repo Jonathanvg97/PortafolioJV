@@ -19,7 +19,7 @@ function Footer() {
           <i class="ri-linkedin-box-line"></i>
         </a>
         <a href="https://github.com/Jonathanvg97" target="blank">
-          <i class="ri-github-fill"></i>
+        <i class="ri-github-fill"></i>
         </a>
         <ReactWhatsapp className="botonWha"
           number="57-310-858-0916"
@@ -30,9 +30,9 @@ function Footer() {
       </div>
 
       <div className="links">
-        <a href="" className="li"> About Me</a>
-        <a href="" className="li"> Proyects</a>
-        <a href="" className="li"> Contact </a>
+        <a href="#About" className="li"> Acerca de Mi</a> 
+        <a href="#Proyect" className="li"> Proyectos</a>
+        <a href="#Contact" className="li"> Contactame </a>
       </div>
       </div>
       <span className="frase">"Ser libre es  gastar la mayor cantidad de tiempo de nuestra <br /> vida en aquello que nos gusta hacer"</span>

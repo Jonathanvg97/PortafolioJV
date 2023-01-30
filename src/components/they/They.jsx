@@ -48,7 +48,7 @@ export default function Slider() {
   }
   return (
     <div className="they">
-    <h1 className="Acerca">references</h1>
+    <h1 className="Acerca">Referenicas</h1>
     <div className="slider">
       <Carousel
         showArrows={true}

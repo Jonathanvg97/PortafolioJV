@@ -25,14 +25,14 @@
   margin-left: -100px;
 }
 .ri-linkedin-box-line {
-  color: #000;
+  color: #fff;
 }
 .ri-linkedin-box-line:hover {
   color: rgb(164, 174, 177);
 }
 
 .ri-whatsapp-line {
-  color: #000;
+  color: #fff;
   background: none;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .ri-github-fill {
-  color: #000;
+  color: #fff;
 }
 
 .ri-github-fill:hover {
