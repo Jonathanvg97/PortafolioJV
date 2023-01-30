@@ -19,12 +19,18 @@ const Proyects = () => {
                 <div className="flip-card-back">
                   <p className="title">{proyect.title}</p>
                   <p> {proyect.description}</p>
+                  <ul className="git">
+                    <li className="gits">
                   <a href={proyect.url} target="blank">
                     <button className="Ver">Ver Proyectos</button>
                   </a>
-                  <a href={proyect.url} target="blank">
+                  </li>
+                  <li className="gits">
+                  <a href={proyect.urlRepo} target="blank">
                     <button className="Ver">Ver Repositorio</button>
                   </a>
+                  </li>
+                  </ul>
                 </div>
               </div>
             </div>
