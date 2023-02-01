@@ -1,12 +1,12 @@
 .footer {
-  background-color: rgb(18, 34, 9);
+  background-color: #98ff96;
 }
 
 .sloganFooter {
   padding-top: 25px;
   font-size: 28px;
   font-family: "Domine", serif;
-  color: #fff;
+  color: #000;
   text-shadow: black 0.4em 0.4em 0.2em;
   justify-content: center;
   align-content: center;
@@ -25,14 +25,14 @@
   margin-left: -100px;
 }
 .ri-linkedin-box-line {
-  color: #fff;
+  color: #000;
 }
 .ri-linkedin-box-line:hover {
   color: rgb(164, 174, 177);
 }
 
 .ri-whatsapp-line {
-  color: #fff;
+  color: #000;
   background: none;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .ri-github-fill {
-  color: #fff;
+  color: #000;
 }
 
 .ri-github-fill:hover {
@@ -55,7 +55,7 @@
 }
 
 .li {
-  color: #fff;
+  color: #000;
   font-family: "Domine", serif;
   font-size: 20px;
   line-height: 40px;
@@ -83,7 +83,7 @@ div a {
 }
 
 .frase {
-  color: #fff;
+  color: #000;
   font-size: 16px;
   font-family: "Domine", serif;
 }
@@ -137,9 +137,6 @@ div a {
 
 /*celular*/
 @media only screen and (max-width: 480px) {
-  .footer {
-    background-color: rgb(18, 34, 9);
-  }
 
   .sloganFooter {
     padding-top: 25px;
@@ -154,8 +151,7 @@ div a {
 
   .footer-contact {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    margin: -10px auto;
     font-size: 60px;
   
     
@@ -187,13 +183,9 @@ div a {
   .links {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    margin-top: 120px;
   }
 
   .li {
-    color: #fff;
     font-family: "Domine", serif;
     font-size: 16px;
     line-height: 40px;
@@ -201,8 +193,8 @@ div a {
 
   .logo {
     height: 200px;
-    width: 180px;
-    margin-top: -50px;
+    width: 140px;
+    margin: -40px auto;
     justify-content: center;
   }
 
