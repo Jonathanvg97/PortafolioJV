@@ -22,8 +22,8 @@ function Header() {
       
       <img className="log" src={log} alt="logo" />
       <h1 className="Principal">
-      Buscando quién puede hacer realidad la <br /> idea que <br /> 
-        tienes en mente
+      ¿Buscando quién puede hacer realidad la <br /> idea que <br /> 
+        tienes en mente?
       </h1>
    
         <ReactWhatsapp className="contact"

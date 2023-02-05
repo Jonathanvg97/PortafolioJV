@@ -6,6 +6,8 @@ import Crypto from "../proyects/images/Crypto.jpg";
 import To from "../proyects/images/ToDoList.jpg";
 import Cookpets from "../proyects/images/Cookpets.jpg";
 import Wheel from "../proyects/images/Wheel.jpg";
+import html from "../skils/image/html.png"
+import css from "../skils/image/css.png"
 
 export const data = [
   {
@@ -15,8 +17,9 @@ export const data = [
     category: "Collaboraty",
     description:
       " Este proyecto se realizo en colaboración con otros estudiantes. Se realizo una replica de la pagina oficial de deezer",
+    tools:css,
     url: "https://jhonattanssg01.github.io/Deezer/",
-    urlRepo:"https://github.com/JhonattanSSG01/Deezer"
+    urlRepo:"https://github.com/JhonattanSSG01/Deezer",
   },
   {
     id: "02",

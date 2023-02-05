@@ -19,6 +19,7 @@ const Proyects = () => {
                 <div className="flip-card-back">
                   <p className="title">{proyect.title}</p>
                   <p> {proyect.description}</p>
+                  <img className="tools" style={{width:"40px"}} src={proyect.tools} alt="Herramientas Utilizadas" />
                   <ul className="git">
                     <li className="gits">
                   <a href={proyect.url} target="blank">

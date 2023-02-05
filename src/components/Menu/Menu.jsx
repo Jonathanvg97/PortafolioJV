@@ -24,7 +24,7 @@ export function NavHeader() {
           <Collapse className="collapses" isOpen={!collapsed} navbar>
             <Nav className="navCollapse" navbar>
               <NavItem className="navItemGlobal">
-             <a href="#About"><NavLink className="border">Acerca de Mi</NavLink></a> 
+             <a href="#About"><NavLink className="border">Acerca</NavLink></a> 
               </NavItem>
               <NavItem className="navItemGlobal">
                <a href="#Skills"> <NavLink className="border">Habilidades</NavLink></a>
@@ -36,7 +36,7 @@ export function NavHeader() {
                 <a href="#Contact"> <NavLink className="border">Contactame</NavLink></a>
               </NavItem>
               <NavItem className="navItemGlobal">
-                <NavLink className="border">Curriculum</NavLink>
+               <a href="https://drive.google.com/file/d/13CczM6GBnX8Sh17wRNxFtfUl148Y_0ME/view?usp=share_link" target="blank"> <NavLink className="border">Curriculum</NavLink></a>
               </NavItem>
             </Nav>
           </Collapse>

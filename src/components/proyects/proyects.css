@@ -11,7 +11,7 @@
 .title {
   text-align: center;
   margin: 5px;
-  margin-top: -20px;
+  margin-top: 20px;
   font-family: "Domine", serif;
 }
 
@@ -93,6 +93,9 @@
 .Ver {
   border-radius: 10px;
   padding: 5px 5px;
+  margin: 10px auto;
+
+  display: flex;
   font-family: "Domine", serif;
   background-color: rgb(58, 55, 43);
   border: 0 solid;
@@ -118,20 +121,45 @@
 .git{
   display: flex;
   justify-content: center;
-  margin: 0;
-  left: 0;
 }
 
 .gits{
-  justify-content: center;
-  align-content: center;
+  margin: 10px 10px 10px -20px;
+ 
 }
-@media only screen and (min-width: 1024px) and (max-width: 1319px) {
+@media only screen and (min-width: 891px) and (max-width: 1080px) {
+  .co {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 0px;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 260px;
+    height: 300px;
+    perspective: 1000px;
+    font-family: "Akshar";
+    margin: 1rem;
+  }
+}
+
+@media only screen and (min-width:1081px) and (max-width: 1499px) {
   .co {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-row-gap: 25px;
-    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-column-gap: 0px;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 230px;
+    height: 300px;
+    perspective: 1000px;
+    font-family: "Akshar";
+    margin: 1rem;
   }
 }
 
@@ -139,7 +167,7 @@
 @media only screen and (min-width: 1500px) {
   .flip-card {
     background-color: transparent;
-    width: 400px;
+    width: 300px;
     height: 300px;
     perspective: 1000px;
     font-family: "Akshar";
@@ -147,7 +175,7 @@
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 800px) {
+@media only screen and (min-width: 617px) and (max-width: 890px) {
 
   .co {
     display: grid;
@@ -157,18 +185,23 @@
     grid-column-gap: 5px;
     margin-top: 40px;
   }
+
+  .gits{
+    margin: 10px 10px 10px -10px;
+   
+  }
 }
 
 /*celular*/
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 616px) {
   #pro {
-    margin-top: -400px;
+    margin-top: 0px;
   }
 
   .co {
     display: flex;
     flex-direction: column;
-    margin-top: 0px;
+    margin-top: -0px;
     justify-content: space-evenly;
   }
 

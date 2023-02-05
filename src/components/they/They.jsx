@@ -28,17 +28,29 @@ const imageData = [
   },
 ];
 
-
-
-const renderSlides = 
-imageData.map((image) => (
+const renderSlides = imageData.map((image) => (
   <div className="container">
     <div key={image.id}>
       <img className="perfil" src={image.alt} alt="" />
       <span className="opinion">{image.Text}</span>
-      <p className="legend" id="legen">{image.label} </p>
+      <p className="legend" id="legen">
+        {image.label}{" "}
+      </p>
     </div>
+    <div className="redesThey">
+      <a href="https://github.com/Jonathanvg97" target="blank">
+        <i class="ri-github-fill"></i>
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/jonathanvanegasdeveloperandphysicaltrainer/"
+        target="blank"
+      >
+        <i class="ri-linkedin-box-line"></i>
+      </a>
+      </div>
   </div>
+  
 ));
 
 export default function Slider() {
@@ -48,19 +60,19 @@ export default function Slider() {
   }
   return (
     <div className="they">
-    <h1 className="Acerca">Referenicas</h1>
-    <div className="slider">
-      <Carousel
-        showArrows={true}
-        autoPlay={true}
-        infiniteLoop={true}
-        selectedItem={imageData[currentIndex]}
-        onChange={handleChange}
-        className="carousel-container"
-      >
-        {renderSlides}
-      </Carousel>
-    </div>
+      <h1 className="Acerca">Referenicas</h1>
+      <div className="slider">
+        <Carousel
+          showArrows={true}
+          autoPlay={true}
+          infiniteLoop={true}
+          selectedItem={imageData[currentIndex]}
+          onChange={handleChange}
+          className="carousel-container"
+        >
+          {renderSlides}
+        </Carousel>
+      </div>
     </div>
   );
 }

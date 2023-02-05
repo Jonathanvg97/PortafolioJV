@@ -19,10 +19,12 @@
   transition: 0.7s;
 }
 
+
 .skill2:hover {
   transform: rotate(360deg);
   transition: 0.7s;
 }
+
 .skill3:hover {
   transform: rotate(360deg);
   transition: 0.7s;
@@ -51,7 +53,98 @@
   transition: 0.7s;
 }
 
-@media only screen and (min-width: 1024px) {
+
+#contenedor {
+  height: 100%;
+    width: 10em;
+    height: 2em;
+    margin: 0 auto;
+    border: 2px solid #eb7260;
+    border-radius: 10px;
+}
+
+#barra {
+    width: 0;
+    height: 100%;
+    -webkit-animation: progreso 5s linear infinite;
+            animation: progreso 5s linear infinite;
+    background: #eb7260;
+}
+
+#texto {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 2em;
+    margin: 0 auto;
+    width: 10em;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+#texto:after {
+    content: '0%';
+    -webkit-animation: porcentaje 5s linear infinite;
+            animation: porcentaje 5s linear infinite;
+           
+}
+
+
+@-webkit-keyframes progreso {
+    0% {
+        width: 0;
+    }
+    75% {
+        width: 75%;
+    }
+}
+
+@keyframes progreso {
+    0% {
+        width: 0;
+    }
+    75% {
+        width: 75%;
+    }
+}
+
+@-webkit-keyframes porcentaje {
+    0% {
+        content: '0%';
+    }
+    25% {
+        content: '25%';
+    }
+    50% {
+        content: '50%';
+    }
+    75% {
+        content: '75%';
+    }
+    100% {
+        content: '100%';
+    }
+}
+
+@keyframes porcentaje {
+    0% {
+        content: '0%';
+    }
+    25% {
+        content: '25%';
+    }
+    50% {
+        content: '50%';
+    }
+    75% {
+        content: '75%';
+    }
+    /* 100% {
+        content: '100%';
+    } */
+}
+
+@media only screen and (min-width: 800px) {
   
   .skill1{
     width: 120px;
@@ -116,7 +209,15 @@
 
  }
 
- @media only screen and (min-width: 500px) and (max-width: 800px) {
+ @media only screen and (min-width: 500px)  and (max-width:800px) {
+
+  .skills {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+  }
   .skill1{
     width: 120px;
   }
@@ -143,8 +244,10 @@
   }
  }
  
+
+
 /*celular*/
- @media only screen and (max-width: 480px) {
+ @media only screen and (max-width: 499px) {
 
   .Hab {
     display: grid;
@@ -156,7 +259,7 @@
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+   
     grid-column-gap: 10px;
     grid-row-gap: 15px;
 
