@@ -1,4 +1,3 @@
-import React from "react";
 import "./skills.css";
 import js from "./image/js.png";
 import css from "./image/css.png";
@@ -8,73 +7,95 @@ import react from "./image/react.png";
 import boostrap from "./image/bootstrap.png";
 import trello from "./image/trello.png";
 import figma from "./image/figma.png";
-import { useState, useRef } from "react";
-import Overlay from "react-bootstrap/Overlay";
-import Tooltip from "react-bootstrap/Tooltip";
+import * as React from "react";
+import Button from "@mui/material/Button";
+import Tooltips from "@mui/material/Tooltip";
+import Fade from "@mui/material/Fade";
+import Zoom from "@mui/material/Zoom";
+import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
+import Typography from "@mui/material/Typography";
+import { styled } from "@mui/material/styles";
+
 function Skills() {
+  const [open, setOpen] = React.useState(false);
 
-  const [show, setShow] = useState(false);
-  const target = useRef(null);
+  const handleClose = () => {
+    setOpen(false);
+  };
 
-  const [show2, setShow2] = useState(false);
-  const target2 = useRef(null);
+  const handleOpen = () => {
+    setOpen(true);
+  };
+
+  const BootstrapTooltip = styled(({ className, ...props }) => (
+    <Tooltip {...props} arrow classes={{ popper: className }} />
+  ))(({ theme }) => ({
+    [`& .${tooltipClasses.arrow}`]: {
+      color: theme.palette.common.black,
+    },
+    [`& .${tooltipClasses.tooltip}`]: {
+      backgroundColor: theme.palette.common.black,
+      maxWidth: 200,
+      textAlign: "center",
+      fontSize: 12
+    },
+  }));
 
   return (
     <>
       <div className="Hab">
         <h1 className="Acerca" id="Skills" style={{ marginTop: "40px" }}>
-          Tecnologias
+          Tecnologías
         </h1>
         <ul className="skills">
-          <li>
-            {" "}
-            <img
-              className="skill1"
-              src={js}
-              alt="logo js"
-              ref={target}
-              onMouseOver={() => setShow(!show)}
-            />
-          </li>
-          <Overlay target={target.current} show={show} placement="bottom-start">
-            {(props) => (
-              <Tooltip id="overlay-example" {...props}>
-                JavaScript es un lenguaje de programación que los
-                desarrolladores utilizan para hacer páginas web interactivas.
-
-          
-                <div id="contenedor">
+        {/* <div id="contenedor">
                   <div id="barra">
                     <div id="texto"></div>
                   </div>
-                </div>
-           
-              </Tooltip>
-            )}
-          </Overlay>
+                </div> */}
 
           <li>
-            <img className="skill2" src={css} alt="logo css" ref={target2}
-              onClick={() => setShow2(!show2)}/>
-          </li>
-          <Overlay target={target2.current} show={show2} placement="bottom-start">
-            {(props) => (
-              <Tooltip id="overlay-example" {...props}>
-               El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos
-                <div id="contenedor">
+          <BootstrapTooltip
+              leaveDelay={200}
+              TransitionComponent={Zoom}
+              TransitionProps={{ timeout: 600 }}
+              title=" JavaScript es un lenguaje de programación que los
+              desarrolladores utilizan para hacer páginas web interactivas."
+              followCursor
+              arrow
+            >
+            <img className="skill1" src={js} alt="logo html" />
+            </BootstrapTooltip>
+               {/* <div id="contenedor">
                   <div id="barra">
                     <div id="texto"></div>
                   </div>
-                </div>
-           
-              </Tooltip>
-            )}
-          </Overlay>
-          <li>
-            <img className="skill3" src={html} alt="logo html" />
+                </div> */}
           </li>
+
+         
           <li>
-            <img className="skill4" src={python} alt="logo python" />
+            <BootstrapTooltip
+              leaveDelay={200}
+              TransitionComponent={Zoom}
+              TransitionProps={{ timeout: 600 }}
+              title=" El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos"
+              followCursor
+              arrow
+            >
+              <img className="skill3" src={html} alt="logo html" />
+            </BootstrapTooltip>
+               {/* <div id="contenedor">
+                  <div id="barra">
+                    <div id="texto"></div>
+                  </div>
+                </div> */}
+          </li>
+
+          <li>
+            <Tooltips title="eeeee">
+              <img className="skill4" src={python} alt="logo python" />
+            </Tooltips>
           </li>
           <li>
             <img className="skill5" src={react} alt="logo react" />
