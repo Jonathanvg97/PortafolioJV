@@ -63,9 +63,10 @@ export const Correo = () => {
         <label className="titulos">Message</label>
 
         <textarea
+              type="text"
               name="message"
               placeholder="Mensaje"
-              className="border border-slate-600 p-3 rounded h-44"
+              className="border border-slate-600 p-3 rounded h-44 input2"
               required
             ></textarea>
         <div>
