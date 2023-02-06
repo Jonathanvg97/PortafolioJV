@@ -23,7 +23,7 @@ const Proyects = () => {
                   <ul className="git">
                     <li className="gits">
                   <a href={proyect.url} target="blank">
-                    <button className="Ver">Ver Proyectos</button>
+                    <button className="Ver">Ver Proyecto</button>
                   </a>
                   </li>
                   <li className="gits">

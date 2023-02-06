@@ -6,6 +6,7 @@ import Crypto from "../proyects/images/Crypto.jpg";
 import To from "../proyects/images/ToDoList.jpg";
 import Cookpets from "../proyects/images/Cookpets.jpg";
 import Wheel from "../proyects/images/Wheel.jpg";
+import Flores from "../proyects/images/Flores.jpg";
 import html from "../skils/image/html.png"
 import css from "../skils/image/css.png"
 
@@ -87,5 +88,14 @@ export const data = [
     description: " Este proyecto se realizo un juego para eliminar jugadores",
     url:"https://wheel-of-doom-5tbdwl6d4-yeimmibuenaventura.vercel.app/",
     urlRepo:"https://github.com/YeimmiBuenaventura/WheelOfDoom"
+  },
+  {
+    id: "09",
+    title: "Flores del Tambo",
+    ruta: Flores,
+    category: "Collaboraty",
+    description: " Este proyecto se realizo un todolist para un tienda de flores",
+    url:"https://todolistcrud.vercel.app/",
+    urlRepo:"https://github.com/Jonathanvg97/todolist-tambo-flowers"
   },
 ];
