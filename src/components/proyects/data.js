@@ -18,7 +18,7 @@ export const data = [
     category: "Collaboraty",
     description:
       " Este proyecto se realizo en colaboración con otros estudiantes. Se realizo una replica de la pagina oficial de deezer",
-    tools:[{html:html,css:css}],
+    "tools":["html","css"],
     url: "https://jhonattanssg01.github.io/Deezer/",
     urlRepo:"https://github.com/JhonattanSSG01/Deezer",
   },

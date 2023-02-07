@@ -9,21 +9,39 @@ import "./they.css";
 
 const imageData = [
   {
-    id: "1",
+    id: 1,
     label: "Juliana Fajardo",
     alt: image1,
     Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
   },
   {
-    id: "2",
+    id: 2,
     label: "Andrea Niño",
     alt: image3,
     Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
   },
   {
-    id: "3",
+    id: 3,
     label: "Stiven Saavedra",
     alt: image2,
+    Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
+  },
+  {
+    id: 4,
+    label: "Andrea Niño",
+    alt: image3,
+    Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
+  },
+  {
+    id: 5,
+    label: "Andrea Niño",
+    alt: image3,
+    Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
+  },
+  {
+    id: 6,
+    label: "Andrea Niño",
+    alt: image3,
     Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
   },
 ];
@@ -60,7 +78,7 @@ export default function Slider() {
   }
   return (
     <div className="they">
-      <h1 className="Acerca">Referenicas</h1>
+      <h1 className="Acerca">Referencias</h1>
       <div className="slider">
         <Carousel
           showArrows={true}

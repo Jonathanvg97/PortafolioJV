@@ -8,25 +8,26 @@ import boostrap from "./image/bootstrap.png";
 import trello from "./image/trello.png";
 import figma from "./image/figma.png";
 import * as React from "react";
-import Button from "@mui/material/Button";
-import Tooltips from "@mui/material/Tooltip";
-import Fade from "@mui/material/Fade";
 import Zoom from "@mui/material/Zoom";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
-import Typography from "@mui/material/Typography";
 import { styled } from "@mui/material/styles";
 
+// const skillsData = [
+//   {
+//     id: 1,
+//     img: js,
+//     tooltip:
+//       "JavaScript es un lenguaje de programación que los desarrolladores utilizan para hacer páginas web interactivas.",
+//   },
+//   {
+//     id: 2,
+//     img: css,
+//     tooltip:
+//       " El CSS (hojas de estilo en cascada) es un lenguaje que define la apariencia de un documento escrito en un lenguaje de marcado (por ejemplo, HTML).",
+//   },
+// ];
+
 function Skills() {
-  const [open, setOpen] = React.useState(false);
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
   const BootstrapTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} arrow classes={{ popper: className }} />
   ))(({ theme }) => ({
@@ -37,7 +38,7 @@ function Skills() {
       backgroundColor: theme.palette.common.black,
       maxWidth: 200,
       textAlign: "center",
-      fontSize: 12
+      fontSize: 12,
     },
   }));
 
@@ -48,7 +49,7 @@ function Skills() {
           Tecnologías
         </h1>
         <ul className="skills">
-    
+
           <li>
           <BootstrapTooltip
               leaveDelay={200}
@@ -61,11 +62,10 @@ function Skills() {
             >
             <img className="skill1" src={js} alt="logo html" />
             </BootstrapTooltip>
-               {/* <div id="contenedor">
+               <div id="contenedor">
                   <div id="barra">
-                    <div id="texto"></div>
                   </div>
-                </div> */}
+                </div>
           </li>
 
           <li>
@@ -79,13 +79,11 @@ function Skills() {
             >
             <img className="skill3" src={css} alt="logo html" />
             </BootstrapTooltip>
-               {/* <div id="contenedor">
+               <div id="contenedor">
                   <div id="barra">
-                    <div id="texto"></div>
                   </div>
-                </div> */}
+                </div>
           </li>
-
 
           <li>
             <BootstrapTooltip
@@ -98,11 +96,10 @@ function Skills() {
             >
               <img className="skill3" src={html} alt="logo html" />
             </BootstrapTooltip>
-               {/* <div id="contenedor">
+               <div id="contenedor">
                   <div id="barra">
-                    <div id="texto"></div>
                   </div>
-                </div> */}
+                </div>
           </li>
 
           <li>
@@ -116,8 +113,11 @@ function Skills() {
             >
               <img className="skill4" src={python} alt="logo python" />
             </BootstrapTooltip>
+            <div id="contenedor">
+                  <div id="barra">
+                  </div>
+                </div>
           </li>
-
 
           <li>
           <BootstrapTooltip
@@ -130,8 +130,11 @@ function Skills() {
             >
                <img className="skill5" src={react} alt="logo react" />
             </BootstrapTooltip>
+            <div id="contenedor">
+                  <div id="barra">
+                  </div>
+                </div>
           </li>
-
 
           <li>
           <BootstrapTooltip
@@ -144,8 +147,11 @@ function Skills() {
             >
             <img className="skill6" src={boostrap} alt="logo boostrap" />
             </BootstrapTooltip>
+            <div id="contenedor">
+                  <div id="barra">
+                  </div>
+                </div>
           </li>
-
 
           <li>
           <BootstrapTooltip
@@ -158,8 +164,11 @@ function Skills() {
             >
             <img className="skill7" src={trello} alt="logo trello" />
             </BootstrapTooltip>
+            <div id="contenedor">
+                  <div id="barra">
+                  </div>
+                </div>
           </li>
-
 
           <li>
           <BootstrapTooltip
@@ -172,9 +181,12 @@ function Skills() {
             >
             <img className="skill8" src={figma} alt="logo figma" />
             </BootstrapTooltip>
+            <div id="contenedor">
+                  <div id="barra">
+                  </div>
+                </div>
           </li>
 
-          
         </ul>
       </div>
     </>
