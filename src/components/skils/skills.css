@@ -60,7 +60,7 @@
     width: 8em;
     height: 2em;
     margin: 12px auto;
-    border: 2px solid #eb7260;
+    border: 2px solid hwb(248 0% 83%);
     border-radius: 10px;
 }
 
@@ -69,7 +69,8 @@
     height: 100%;
     -webkit-animation: progreso 5s linear infinite;
             animation: progreso 5s linear infinite;
-    background: #eb7260;
+    background: #e8f3f2;
+    border-radius: 10px;
 }
 
 #texto {

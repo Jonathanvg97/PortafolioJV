@@ -42,7 +42,7 @@
   color: #fff;
 }
 .ri-linkedin-box-line:hover {
-  color: rgb(164, 174, 177);
+  color: #000;
 }
 
 .ri-whatsapp-line {
@@ -51,7 +51,7 @@
 }
 
 .ri-whatsapp-line:hover {
-  color: rgb(164, 174, 177);
+  color: #000;
 }
 
 .ri-github-fill {
@@ -59,7 +59,7 @@
 }
 
 .ri-github-fill:hover {
-  color: rgb(164, 174, 177);
+  color: #000;
 }
 
 .links {
@@ -76,7 +76,7 @@
 }
 
 .li:hover {
-  color: rgb(164, 174, 177);
+  color: #000;
   transform: scale(1.2);
 }
 
@@ -173,26 +173,16 @@ div a {
   .ri-linkedin-box-line {
     color: #fff;
   }
-  .ri-linkedin-box-line:hover {
-    color: rgb(164, 174, 177);
-  }
-
+ 
   .ri-whatsapp-line {
     color: #fff;
     background: none;
-  }
-
-  .ri-whatsapp-line:hover {
-    color: rgb(164, 174, 177);
   }
 
   .ri-github-fill {
     color: #fff;
   }
 
-  .ri-github-fill:hover {
-    color: rgb(164, 174, 177);
-  }
 
   .links {
     display: flex;
