@@ -3,6 +3,7 @@
   height: 100%;
   z-index: 0;
   opacity: 0.8;
+  /* filter: hue-rotate(120deg); */
 
 }
 
@@ -158,12 +159,13 @@ p {
 .Fondo {
   /* background:linear-gradient(#1d130d 20%, #1b0f09fd 25%, #22120a 50%); */
   background-image: linear-gradient(
-    to bottom,
-    #2b180f,
-    #312111,
-    #372b12,
-    #413f15,
-    #43551e
+    145deg,
+    hsl(250deg 8% 85%) 0%,
+    hsl(245deg 46% 68%) 16%,
+    hsl(241deg 42% 53%) 20%,
+    hsl(241deg 49% 41%) 26%,
+    hsl(253deg 66% 28%) 38%,
+    hsl(240deg 100% 3%) 86%
   );
   height: 100%;
 }
@@ -314,18 +316,7 @@ p {
     font-size: 20px;
   }
 
-  .Fondo {
-    /* background:linear-gradient(#1d130d 20%, #1b0f09fd 25%, #22120a 50%); */
-    background-image: linear-gradient(
-      to bottom,
-      #2b180f,
-      #312111,
-      #372b12,
-      #413f15,
-      #43551e
-    );
-    height: 100%;
-  }
+  
 }
 
 /*pantalla pc pequeña*/
@@ -592,18 +583,7 @@ p {
     font-size: 20px;
   }
 
-  .Fondo {
-    /* background:linear-gradient(#1d130d 20%, #1b0f09fd 25%, #22120a 50%); */
-    background-image: linear-gradient(
-      to bottom,
-      #2b180f,
-      #312111,
-      #372b12,
-      #413f15,
-      #43551e
-    );
-    height: 100%;
-  }
+
 }
 
 @media only screen and (min-width: 500px) and (max-width: 699px) {
