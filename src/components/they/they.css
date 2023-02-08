@@ -1,9 +1,9 @@
 .they {
- place-items: center;
+  place-items: center;
   display: grid;
 }
 .slider {
- margin: 0 auto;
+  margin: 0 auto;
 }
 
 .perfil {
@@ -48,10 +48,9 @@ p .legend {
   color: #fff;
   font-size: 24px;
   font-family: "Domine", serif;
- 
 }
 
-.redesThey{
+.redesThey {
   font-size: 70px;
   margin: 0 auto;
 }
@@ -68,16 +67,11 @@ p .legend {
 /*celular*/
 @media only screen and (max-width: 480px) {
   .they {
-    margin-top: 180px;
-  }
-  .slider {
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    margin-top: 50px;
   }
 
   .perfil {
-    height: 200px;
+    height: 180px;
   }
 
   .control-arrow {
@@ -100,7 +94,7 @@ p .legend {
   }
 
   .container {
-    height: 400px;
+    height: 420px;
   }
 
   .opinion {
@@ -117,5 +111,14 @@ p .legend {
     color: #fff;
     font-size: 14px;
     font-family: "Domine", serif;
+  }
+
+  .redesThey {
+    font-size: 40px;
+    margin: 0 auto;
+  }
+
+  .carousel .control-dots{
+    display: none; /*desaparecer los puntos del slider*/
   }
 }
