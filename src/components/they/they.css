@@ -81,10 +81,12 @@ p .legend {
   .carousel .control-next.control-arrow:before {
     border-left: 8px solid #fff;
     margin-top: 140px;
+    z-index: 0;
   }
   .carousel .control-prev.control-arrow:before {
     border-right: 8px solid #fff;
     margin-top: 140px;
+    z-index: 0;
   }
 
   .carousel-container {
