@@ -8,7 +8,6 @@
   -webkit-text-stroke: 2px rgba(24, 5, 5, 0.466);
   letter-spacing: 8px;
   font-weight: 700;
-  
   text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
 }
 
@@ -30,7 +29,7 @@ div .about {
 .descripcion {
   margin-top: 40px;
   font-size: 20px;
-  color: #fff;
+  color: #000;
   font-family: "Domine", serif;
 }
 
@@ -39,7 +38,7 @@ div .about {
     width: 350px;
     height: 250px;
     margin: 0 20px ;
-    border-radius: 100%;
+    border-radius: 40%;
   }
   .Acerca {
     text-align: center;
@@ -62,7 +61,7 @@ div .about {
   .descripcion {
     margin-top: 40px;
     font-size: 30px;
-    color: #fff;
+    color: #000;
     font-family: "Domine", serif;
   }
 
@@ -107,7 +106,7 @@ div .about {
   .descripcion {
     margin-top: 30px;
     font-size: 18px;
-    color: #fff;
+    color: #000;
     font-family: "Domine", serif;
     padding: 0 30px;
     text-align: center;
@@ -131,7 +130,7 @@ div .about {
   .descripcion {
     margin-top: 30px;
     font-size: 18px;
-    color: #fff;
+    color: #000;
     font-family: "Domine", serif;
     padding: 0 30px;
     text-align: center;

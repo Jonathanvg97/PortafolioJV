@@ -57,14 +57,14 @@ const renderSlides = imageData.map((image) => (
     </div>
     <div className="redesThey">
       <a href="https://github.com/Jonathanvg97" target="blank">
-        <i class="ri-github-fill"></i>
+        <i className="ri-github-fill"></i>
       </a>
 
       <a
         href="https://www.linkedin.com/in/jonathanvanegasdeveloperandphysicaltrainer/"
         target="blank"
       >
-        <i class="ri-linkedin-box-line"></i>
+        <i className="ri-linkedin-box-line"></i>
       </a>
       </div>
   </div>
