@@ -12,7 +12,9 @@ const imageData = [
     id: 1,
     label: "Juliana Fajardo",
     alt: image1,
-    Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
+    Text: "Es un estudiante destacado y responsable, siempre cumple con su trabajo de manera idonea en cuanto a codigo, es un excelente gestor en proyectos y product owner.",
+    url:"https://www.linkedin.com/in/julianafajardo",
+    url2:"https://github.com/wjulifajarb/wjulifajarb"
   },
   {
     id: 2,
@@ -56,12 +58,12 @@ const renderSlides = imageData.map((image) => (
       </p>
     </div>
     <div className="redesThey">
-      <a href="https://github.com/Jonathanvg97" target="blank">
+      <a href={image.url2} target="blank">
         <i className="ri-github-fill"></i>
       </a>
 
       <a
-        href="https://www.linkedin.com/in/jonathanvanegasdeveloperandphysicaltrainer/"
+        href={image.url}
         target="blank"
       >
         <i className="ri-linkedin-box-line"></i>

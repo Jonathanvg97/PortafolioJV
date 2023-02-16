@@ -30,7 +30,7 @@
 }
 
 .container {
-  height: 460px;
+  height: 540px;
 }
 
 .opinion {
@@ -41,7 +41,7 @@
 
 p .legend {
   color: #000;
-  font-size: 78px;
+  font-size: 70px;
 }
 
 #legen {
@@ -60,12 +60,14 @@ p .legend {
 
 
 /*pantalla grande*/
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1100px) {
   .carousel-container {
     justify-content: center;
     align-items: center;
-    width: 650px;
+    width: 530px;
   }
+
+  
 }
 
 /*celular*/
@@ -100,7 +102,7 @@ p .legend {
   }
 
   .container {
-    height: 420px;
+    height: 520px;
   }
 
   .opinion {
