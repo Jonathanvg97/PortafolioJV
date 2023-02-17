@@ -575,7 +575,7 @@ p {
 @media only screen and (max-width: 499px) {
   .avatar {
     width: 100%;
-    height: 240px;
+    height: 320px;
     z-index: 0;
   }
 
@@ -603,12 +603,12 @@ p {
     top: 50px;
     left: 16%;
     right: 10%;
-    font-size: 10px;
+    font-size: 18px;
     font-family: "Domine", serif;
   }
 
   .contact {
-    top: 105px;
+    top: 155px;
     left: 44%;
     z-index: 0;
     position: absolute;
@@ -621,8 +621,8 @@ p {
     text-align: center;
   }
   .Secundario {
-    top: 140px;
-    font-size: 6px;
+    top: 180px;
+    font-size: 14px;
   }
   /* 
   .Secundario:hover {
