@@ -15,11 +15,11 @@
 }
 
 .carousel .control-next.control-arrow:before {
-  border-left: 8px solid #000;
+  border-left: 8px solid #fff;
   margin-top: 140px;
 }
 .carousel .control-prev.control-arrow:before {
-  border-right: 8px solid #000;
+  border-right: 8px solid #fff;
   margin-top: 140px;
 }
 
@@ -34,23 +34,24 @@
 }
 
 .opinion {
-  font-family: "arial";
-  color: #000;
+  font-family: "Lato";
+  color: #fff;
   font-size: 18px;
 }
 
 p .legend {
-  color: #000;
+  color: #fff;
   font-size: 70px;
+  font-family: "lato", serif;
 }
 
 #legen {
   color: #fff;
-  font-size: 24px;
-  font-family: "Domine", serif;
+  font-size: 20px;
+  font-family: "Lato", serif;
 }
 .carousel .control-dots .dot{
-  background: #000;
+  background: #fff;
 }
 .redesThey {
   font-size: 70px;
@@ -66,7 +67,6 @@ p .legend {
     align-items: center;
     width: 530px;
   }
-
   
 }
 
@@ -85,12 +85,11 @@ p .legend {
   }
 
   .carousel .control-next.control-arrow:before {
-    border-left: 8px solid #000;
+  
     margin-top: 140px;
     z-index: 0;
   }
   .carousel .control-prev.control-arrow:before {
-    border-right: 8px solid #000;
     margin-top: 140px;
     z-index: 0;
   }
@@ -106,18 +105,13 @@ p .legend {
   }
 
   .opinion {
-    font-family: "arial";
-    color: #000;
     font-size: 16px;
   }
 
-  p .legend {
-    color: #000;
-  }
+
 
   #legen {
     font-size: 14px;
-    font-family: "Domine", serif;
   }
 
   .redesThey {

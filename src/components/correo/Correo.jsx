@@ -42,12 +42,12 @@ export const Correo = () => {
   return (
     <>
       <h1 className="Acerca" id="Contact">
-        Contactame
+        Contáctame
       </h1>
       <div class="flip-card1">
         <div class="flip-card-inner1">
           <div class="flip-card-front1">
-            <h2>Contactame</h2>
+            <h2 style={{fontFamily:"kavoon"}}>Contáctame</h2>
             <img className="Aqui" src={aqui} alt="" />
           </div>
           <div class="flip-card-back1">

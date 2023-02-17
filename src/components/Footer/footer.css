@@ -1,12 +1,12 @@
 .footer {
-  background:#252A3A;
+  background:#2f1e3a;
   border-top: solid #fff 5px;
 }
 
 .sloganFooter {
   padding-top: 15px;
   font-size: 28px;
-  font-family: "Domine", serif;
+  font-family: "Kavoon", serif;
   color: #fff;
   justify-content: center;
   align-content: center;
@@ -24,27 +24,27 @@
   margin-left: -100px;
 }
 .ri-linkedin-box-line {
-  color: #000;
+  color: #fff;
 }
 .ri-linkedin-box-line:hover {
-  color: #977c7c;
+  color: #000;
 }
 
 .ri-whatsapp-line {
-  color: #000;
+  color: #fff;
   background: none;
 }
 
 .ri-whatsapp-line:hover {
-  color: #977c7c;
-}
-
-.ri-github-fill {
   color: #000;
 }
 
+.ri-github-fill {
+  color: #fff;
+}
+
 .ri-github-fill:hover {
-  color: #977c7c;
+  color: #000;
 }
 
 .links {
@@ -55,7 +55,7 @@
 
 .li {
   color: #fff;
-  font-family: "Domine", serif;
+  font-family: "kavoon", serif;
   font-size: 20px;
   line-height: 40px;
 }
@@ -84,7 +84,7 @@ div a {
 .frase {
   color: #fff;
   font-size: 16px;
-  font-family: "Domine", serif;
+  font-family: "kavoon", serif;
 }
 
 @media only screen and (min-width: 1500px) {
@@ -155,20 +155,7 @@ div a {
   
     
   }
-  .ri-linkedin-box-line {
-    color: #000;
-  }
  
-  .ri-whatsapp-line {
-    color: #000;
-    background: none;
-  }
-
-  .ri-github-fill {
-    color: #000;
-  }
-
-
   .links {
     display: flex;
     flex-wrap: wrap;

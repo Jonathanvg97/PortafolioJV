@@ -58,7 +58,7 @@
 
   .nav .navCollapse {
     background: rgb(184,173,144);
-    background: linear-gradient(180deg, rgba(184,173,144,1) 26%, rgba(170,108,42,1) 100%);
+    background: linear-gradient(180deg, rgb(171, 155, 173) 26%, rgb(72,62,71) 100%);
     text-align: center;
     position: fixed;
     width: 60%;

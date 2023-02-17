@@ -30,22 +30,11 @@ const imageData = [
   },
   {
     id: 4,
-    label: "Andrea Niño",
-    alt: image3,
+    label: " Jimmy Murillo",
+    alt: image2,
     Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
   },
-  {
-    id: 5,
-    label: "Andrea Niño",
-    alt: image3,
-    Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
-  },
-  {
-    id: 6,
-    label: "Andrea Niño",
-    alt: image3,
-    Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
-  },
+ 
 ];
 
 const renderSlides = imageData.map((image) => (
