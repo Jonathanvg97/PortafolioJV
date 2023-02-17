@@ -13,10 +13,10 @@ function About() {
         <img className="foto " src={foto} alt="Foto perfil" />
         <p className="descripcion animate__animated animate__slideInLeft">
           Hola! mi nombre es Jonathan Vanegas, bienvenido a mi portafolio. Soy
-          programador Full Stack, me gusta el front-end, hace 1 año inicié este
-          camino de la tecnología y la programación y es algo que me sigue
-          gustando mucho, me apasiona el diseño, soy creativo y me gusta
-          resolver problemas. Por eso me gusta seguir aprendiendo cada día más
+          programador Full Stack, me gusta el front-end. Hace 1 año inicié este
+          camino de la tecnología y la programación; es algo que me sigue
+          apasionando al igual que el diseño. Soy creativo y me siento cómodo resolviendo
+          problemas, por eso me gustaría seguir aprendiendo cada día más
           al lado de la tecnología.
         </p>
       </div>
