@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "./image/header2.jpg";
+import avatar from "./image/fondo2.jpg";
 import "./header.css";
 import About from "../about/About";
 import Skills from "../skils/Skills";
@@ -8,8 +8,8 @@ import Slider from "../they/They";
 import Footer from "../Footer/Footer";
 import ReactWhatsapp from "react-whatsapp";
 import {Correo} from '../correo/Correo'
-import log from './image/logo.png'
 import {NavHeader} from '../Menu/Menu'
+import 'animate.css';
 
 
 
@@ -20,9 +20,8 @@ function Header() {
     <div className="header">
       <img className="avatar" src={avatar} alt="" />
       
-      <img className="log" src={log} alt="logo" />
-      <h1 className="Principal">
-      ¿Buscando quién puede hacer realidad la <br /> idea que <br /> 
+      <h1 className="Principal animate__animated animate__zoomInDown">
+      ¿Buscando quién puede hacer realidad la idea que 
         tienes en mente?
       </h1>
    

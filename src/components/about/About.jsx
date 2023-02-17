@@ -1,5 +1,5 @@
 import React from "react";
-import foto from "./images/foto1.png";
+import foto from "./images/emoji3.png";
 import "./about.css";
 
 function About() {
@@ -10,8 +10,8 @@ function About() {
         Acerca
       </h1>
       <div className="about">
-        <img className="foto" src={foto} alt="Foto perfil" />
-        <p className="descripcion">
+        <img className="foto " src={foto} alt="Foto perfil" />
+        <p className="descripcion animate__animated animate__slideInLeft">
           Hola! mi nombre es Jonathan Vanegas, bienvenido a mi portafolio. Soy
           programador Full Stack, me gusta el front-end, hace 1 año inicié este
           camino de la tecnología y la programación y es algo que me sigue

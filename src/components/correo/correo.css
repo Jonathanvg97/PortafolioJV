@@ -2,7 +2,7 @@
   margin: 0 auto;
  border-radius: 50px;
  background: rgb(184,173,144);
- background: linear-gradient(180deg, rgba(184,173,144,1) 26%, rgba(170,108,42,1) 100%);
+  background: linear-gradient(180deg, rgb(37, 54, 59) 26%, rgb(20, 15, 68) 100%);
 }
 
 .Aqui{
@@ -103,13 +103,12 @@ label {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border: 1px solid coral;
   border-radius: 1rem;
 }
 
 .flip-card-front1 {
-  background: rgb(184,173,144);
-  background: linear-gradient(180deg, rgba(184,173,144,1) 26%, rgba(170,108,42,1) 100%);;
+   background: rgb(184,173,144);
+  background: linear-gradient(180deg, rgb(171, 155, 173) 26%, rgb(72,62,71) 100%);
   color:#fff;
 }
 

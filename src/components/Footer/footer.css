@@ -1,13 +1,13 @@
 .footer {
-background-image: url("../header/image/header2.jpg");
+  background:#252A3A;
+  border-top: solid #fff 5px;
 }
 
 .sloganFooter {
-  padding-top: 25px;
+  padding-top: 15px;
   font-size: 28px;
   font-family: "Domine", serif;
   color: #fff;
-  /* text-shadow: #fff 0.1em 0.1em 0.1em; */
   justify-content: center;
   align-content: center;
 }
@@ -18,7 +18,6 @@ background-image: url("../header/image/header2.jpg");
 }
 
 .footer-contact {
-  margin-top: 20px;
   font-size: 80px;
   justify-content: center;
   align-content: center;
@@ -73,7 +72,7 @@ div a {
 
 .logo {
   height: 240px;
-  margin-top: -50px;
+  margin-top: -80px;
 }
 
 .botonWha {
