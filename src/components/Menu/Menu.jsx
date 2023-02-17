@@ -20,7 +20,7 @@ export function NavHeader() {
     <>
       <header>
         <Navbar className="nav" color="faded" light>
-          <NavbarToggler onClick={toggleNavbar} className="iconNav" />
+          <NavbarToggler  onClick={toggleNavbar} className="iconNav" />
           <Collapse className="collapses" isOpen={!collapsed} navbar>
             <Nav className="navCollapse" navbar>
               <NavItem className="navItemGlobal">

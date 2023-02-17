@@ -68,7 +68,7 @@ function Skills() {
           </li>
 
           <li>
-            <BootstrapTooltip
+            <BootstrapTooltip 
               leaveDelay={200}
               TransitionComponent={Zoom}
               TransitionProps={{ timeout: 600 }}
