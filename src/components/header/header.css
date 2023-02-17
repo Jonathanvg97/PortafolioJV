@@ -608,12 +608,12 @@ p {
   }
 
   .contact {
-    top: 155px;
-    left: 44%;
+    top: 140px;
+    left: 40%;
     z-index: 0;
     position: absolute;
-    padding: 2px 5px;
-    font-size: 6px;
+    padding: 2px 10px;
+    font-size: 12px;
   }
 
   h2 {
