@@ -33,7 +33,7 @@ export function NavHeader() {
                <a href="#Proyect"> <NavLink className="border">Proyectos</NavLink></a>
               </NavItem>
               <NavItem className="navItemGlobal">
-                <a href="#Contact"> <NavLink className="border">Contactame</NavLink></a>
+                <a href="#Contact"> <NavLink className="border">Contáctame</NavLink></a>
               </NavItem>
               <NavItem className="navItemGlobal">
                <a href="https://drive.google.com/file/d/13CczM6GBnX8Sh17wRNxFtfUl148Y_0ME/view?usp=share_link" target="blank"> <NavLink className="border">Curriculum</NavLink></a>

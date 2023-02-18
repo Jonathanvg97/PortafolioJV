@@ -72,7 +72,7 @@ export const Correo = () => {
                         required
                         className="border border-slate-600 p-3 rounded"
                       />
-                      <label className="titulos">Message</label>
+                      <label className="titulos">Mensaje</label>
 
                       <textarea
                         type="text"
@@ -83,7 +83,7 @@ export const Correo = () => {
                       ></textarea>
                       <div>
                         <button className="send" onClick={Swal.success}>
-                          Send
+                          Enviar
                         </button>
                       </div>
                     </form>

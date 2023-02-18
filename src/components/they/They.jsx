@@ -12,7 +12,7 @@ const imageData = [
     id: 1,
     label: "Juliana Fajardo",
     alt: image1,
-    Text: "Es un estudiante destacado y responsable, siempre cumple con su trabajo de manera idonea en cuanto a codigo, es un excelente gestor en proyectos y product owner.",
+    Text: "Es un estudiante destacado y responsable.Siempre cumple con su trabajo de manera idónea en cuanto a código, es un excelente gestor en proyectos y product owner.",
     url:"https://www.linkedin.com/in/julianafajardo",
     url2:"https://github.com/wjulifajarb/wjulifajarb"
   },

@@ -20,7 +20,7 @@ function Header() {
         <img className="avatar" src={avatar} alt="" />
 
         <h1 className="Principal animate__animated animate__zoomInDown">
-          ¿Buscando quién puede hacer realidad la idea que tienes en mente?
+          ¿Buscas quién te pueda ayudar a desarrollar tus ideas? 
         </h1>
 
         <ReactWhatsapp
