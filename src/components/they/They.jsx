@@ -26,15 +26,8 @@ const imageData = [
     id: 3,
     label: "Stiven Saavedra",
     alt: image2,
-    Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
+    Text: "Me parece un buen compañero de trabajo , tiene claridad técnica y conocimientos optimos de programación.",
   },
-  {
-    id: 4,
-    label: " Jimmy Murillo",
-    alt: image2,
-    Text: "Me parece un buen estudiante , es creatvio , curioso e innovador.",
-  },
- 
 ];
 
 const renderSlides = imageData.map((image) => (
